@@ -1,1 +1,1 @@
-- [Задание 1](informatika/Задание 1/Задание 1.md)
+- [Задание 1](tasks/task 1/page.md)
