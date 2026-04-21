@@ -1,3 +1,6 @@
 - [Задание 1](tasks/task 1/page.md)
 - [Задание 2](tasks/task 2/page.md)
 - [Задание 3](tasks/task 3/page.md)
+- [Задание 4](tasks/task 4/page.md)
+- [Задание 5](tasks/task 5/page.md)
+- [Задание 6](tasks/task 6/page.md)
