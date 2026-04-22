@@ -5,3 +5,7 @@
 - [Задание 5.1](tasks/task 5.1/page.md)
 - [Задание 5.2](tasks/task 5.2/page.md)
 - [Задание 6](tasks/task 6/page.md)
+- [Задание 7](tasks/task 7/page.md)
+- [Задание 8](tasks/task 8/page.md)
+- [Задание 9](tasks/task 9/page.md)
+- [На закрепление](tasks/moreworks/page.md)
