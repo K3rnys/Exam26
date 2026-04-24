@@ -113,6 +113,7 @@ print(count)
 > Вот, попробуй
 > 
 > *Тип 8 № [58237](https://inf-ege.sdamgia.ru/problem?id=58237)*
+> 
 > ![](Pasted%20image%2020260424040003.png)
 
 <details>  
