@@ -100,12 +100,12 @@ print(list(combinations("ABC", 2)))
 ![](Pasted%20image%2020260424035128.png)
 
 ```python 
-from itertools import product                                  
-alphabet = '0123'                                              
-count = 0                                                      
-for i in product(alphabet, repeat=3):                          
-    if (i[0] != '0') and (int(i[0]) + int(i[2]) > int(i[1])):  
-        count += 1                                              
+from itertools import product
+alphabet = '0123'
+count = 0
+for i in product(alphabet, repeat=3):
+ if (i[0] != '0') and (int(i[0]) + int(i[2]) > int(i[1])):
+  count += 1
 print(count)
 ```
   Обязательно смотри, что ты не начинаешь с 0, и проводишь мат. операции с `int`, а не `str`, как я)
