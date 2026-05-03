@@ -107,8 +107,8 @@ from itertools import product
 alphabet = '0123'
 count = 0
 for i in product(alphabet, repeat=3):
-    if (i[0] != '0') and (int(i[0]) + int(i[2]) > int(i[1])):
-        count += 1
+	if (i[0] != '0') and (int(i[0]) + int(i[2]) > int(i[1])):
+		count += 1
 print(count)
 >
 38
@@ -140,8 +140,8 @@ from itertools import product
 alphabet = 'МАНГУСТ'
 count = 0
 for i in product(alphabet, repeat=6):
-    if (i[0] != 'А') and (i.count('У') >=1 ) and (i.count('М') == 2):
-        count += 1
+	if (i[0] != 'А') and (i.count('У') >=1 ) and (i.count('М') == 2):
+		count += 1
 print(count)
 >
 9155
@@ -182,18 +182,19 @@ for x in i:
 ```
 
 > А теперь добавь комментарии к коду, и скинь мне:
-
+>
 ```python
 from itertools import product
 otv = 0
 for i in product('0123456789ab', repeat=5):
-    if i[0] != '0':
-        cet = [x for x in i if x in '02468a']
-        if len(set(cet)) == 1 and len(cet) == 3:
-            if cet[0]*3 in ''.join(i):
-                otv += 1
+	if i[0] != '0':
+		cet = [x for x in i if x in '02468a']
+		if len(set(cet)) == 1 and len(cet) == 3:
+			if cet[0]*3 in ''.join(i):
+				otv += 1
 print(otv)
 ```
+
 > И попробуй самостоятельно решить второе
 
 <details>  
@@ -252,8 +253,8 @@ print(otv)
 from itertools import permutations
 count = 0
 for i in permutations('РУСЛАН', 6):
-    if 'УА' not in ''.join(i) and 'АУ' not in ''.join(i):
-        count += 1
+	if 'УА' not in ''.join(i) and 'АУ' not in ''.join(i):
+		count += 1
 print(count)
 ```
 
@@ -290,7 +291,7 @@ print(count)
 В этом типе нет ничего нового
 
 
-> Все задания похожие, поэтому такого задания достаточно
+> Все задания здесь похожие, и этого будет достаточно
 > 
 > Тип 8 № [45242](https://inf-ege.sdamgia.ru/problem?id=45242)
 > 
