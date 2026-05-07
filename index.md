@@ -7,6 +7,6 @@
 - [Задание 6](tasks/task 6/page.md)
 - [Задание 7](tasks/task 7/page.md)
 - [Задание 8](tasks/task 8/page.md)
-- [Задание 9](tasks/task 9/page.md)
+- [Задание 9.1](tasks/task 9.1/page.md)
 - [Коллекции](tasks/collections/page.md)
 - [На закрепление](tasks/moreworks/page.md)
