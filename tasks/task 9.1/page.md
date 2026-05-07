@@ -161,10 +161,10 @@ print(f.readlines())
 table = open('9.csv', encoding='utf-8-sig')
 count = 0
 for string in table:
-    listOfString = list(map(int, string.split(';')))
-    listOfString.sort()
-    if listOfString[0] + listOfString[1] > listOfString[2]:
-        count += 1
+  listOfString = list(map(int, string.split(';')))
+  listOfString.sort()
+    if listOfString[0] + listOfString[1] > listOfString[2]:
+count += 1
 print(count)
 ```
 Тут метод `sort()` позволяет отсортировать по возрастанию список, а еще внутри скобок можно написать `reverse=True` для сортировки по убыванию, или вообще `key=func`, где вместо `func` можно вписать `len`, чтобы сортировать строки по длине, или `abs`, чтобы брать модуль от числа, или еще какие-нибудь функции 
